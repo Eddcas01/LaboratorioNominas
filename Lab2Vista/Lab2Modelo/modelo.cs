@@ -9,8 +9,31 @@ using System.Data.Odbc;
 
 namespace Lab2Modelo
 {
-    class modelo
+    public class modelo
     {
         sentencias  sn = new sentencias();
+
+
+
+        public string idmax(string tabla, string dato)
+        {
+
+
+
+            string idmax = sn.obteneridmax(tabla, dato);
+            if (idmax == "")
+            {
+
+                idmax = "1";
+            }
+
+            return idmax;
+        }
+        public void insertar(string sql)
+        {
+
+            sn.insertar(sql);
+
+        }
     }
 }

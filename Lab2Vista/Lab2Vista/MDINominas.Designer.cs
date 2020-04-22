@@ -44,6 +44,10 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.catalogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoPuestoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoConceptosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,6 +62,7 @@
             this.statusBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.newWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cascadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -75,11 +80,9 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.Estado = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
-            this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoDepartamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoPuestoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mantenimientoConceptosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.generarNominaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.transferenciaBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -90,6 +93,7 @@
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileMenu,
             this.catalogoToolStripMenuItem,
+            this.procesosToolStripMenuItem,
             this.editMenu,
             this.viewMenu,
             this.toolsMenu,
@@ -214,6 +218,34 @@
             this.catalogoToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.catalogoToolStripMenuItem.Text = "Catalogo";
             // 
+            // mantenimientoEmpleadoToolStripMenuItem
+            // 
+            this.mantenimientoEmpleadoToolStripMenuItem.Name = "mantenimientoEmpleadoToolStripMenuItem";
+            this.mantenimientoEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
+            this.mantenimientoEmpleadoToolStripMenuItem.Text = "Mantenimiento Empleado";
+            this.mantenimientoEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoEmpleadoToolStripMenuItem_Click);
+            // 
+            // mantenimientoDepartamentoToolStripMenuItem
+            // 
+            this.mantenimientoDepartamentoToolStripMenuItem.Name = "mantenimientoDepartamentoToolStripMenuItem";
+            this.mantenimientoDepartamentoToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
+            this.mantenimientoDepartamentoToolStripMenuItem.Text = "Mantenimiento Departamento";
+            this.mantenimientoDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoDepartamentoToolStripMenuItem_Click);
+            // 
+            // mantenimientoPuestoToolStripMenuItem
+            // 
+            this.mantenimientoPuestoToolStripMenuItem.Name = "mantenimientoPuestoToolStripMenuItem";
+            this.mantenimientoPuestoToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
+            this.mantenimientoPuestoToolStripMenuItem.Text = "Mantenimiento Puesto";
+            this.mantenimientoPuestoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoPuestoToolStripMenuItem_Click);
+            // 
+            // mantenimientoConceptosToolStripMenuItem
+            // 
+            this.mantenimientoConceptosToolStripMenuItem.Name = "mantenimientoConceptosToolStripMenuItem";
+            this.mantenimientoConceptosToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
+            this.mantenimientoConceptosToolStripMenuItem.Text = "Mantenimiento Conceptos";
+            this.mantenimientoConceptosToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoConceptosToolStripMenuItem_Click);
+            // 
             // editMenu
             // 
             this.editMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -333,8 +365,15 @@
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(160, 26);
             this.optionsToolStripMenuItem.Text = "&Opciones";
+            // 
+            // seguridadToolStripMenuItem
+            // 
+            this.seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
+            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(160, 26);
+            this.seguridadToolStripMenuItem.Text = "Seguridad";
+            this.seguridadToolStripMenuItem.Click += new System.EventHandler(this.SeguridadToolStripMenuItem_Click);
             // 
             // windowsMenu
             // 
@@ -461,40 +500,27 @@
             this.LblUsuario.Size = new System.Drawing.Size(18, 20);
             this.LblUsuario.Text = "...";
             // 
-            // seguridadToolStripMenuItem
+            // procesosToolStripMenuItem
             // 
-            this.seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
-            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.seguridadToolStripMenuItem.Text = "Seguridad";
-            this.seguridadToolStripMenuItem.Click += new System.EventHandler(this.SeguridadToolStripMenuItem_Click);
+            this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.generarNominaToolStripMenuItem,
+            this.transferenciaBancariaToolStripMenuItem});
+            this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.procesosToolStripMenuItem.Text = "Procesos";
             // 
-            // mantenimientoEmpleadoToolStripMenuItem
+            // generarNominaToolStripMenuItem
             // 
-            this.mantenimientoEmpleadoToolStripMenuItem.Name = "mantenimientoEmpleadoToolStripMenuItem";
-            this.mantenimientoEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
-            this.mantenimientoEmpleadoToolStripMenuItem.Text = "Mantenimiento Empleado";
-            this.mantenimientoEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoEmpleadoToolStripMenuItem_Click);
+            this.generarNominaToolStripMenuItem.Name = "generarNominaToolStripMenuItem";
+            this.generarNominaToolStripMenuItem.Size = new System.Drawing.Size(240, 26);
+            this.generarNominaToolStripMenuItem.Text = "Generar Nomina";
+            this.generarNominaToolStripMenuItem.Click += new System.EventHandler(this.GenerarNominaToolStripMenuItem_Click);
             // 
-            // mantenimientoDepartamentoToolStripMenuItem
+            // transferenciaBancariaToolStripMenuItem
             // 
-            this.mantenimientoDepartamentoToolStripMenuItem.Name = "mantenimientoDepartamentoToolStripMenuItem";
-            this.mantenimientoDepartamentoToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
-            this.mantenimientoDepartamentoToolStripMenuItem.Text = "Mantenimiento Departamento";
-            this.mantenimientoDepartamentoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoDepartamentoToolStripMenuItem_Click);
-            // 
-            // mantenimientoPuestoToolStripMenuItem
-            // 
-            this.mantenimientoPuestoToolStripMenuItem.Name = "mantenimientoPuestoToolStripMenuItem";
-            this.mantenimientoPuestoToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
-            this.mantenimientoPuestoToolStripMenuItem.Text = "Mantenimiento Puesto";
-            this.mantenimientoPuestoToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoPuestoToolStripMenuItem_Click);
-            // 
-            // mantenimientoConceptosToolStripMenuItem
-            // 
-            this.mantenimientoConceptosToolStripMenuItem.Name = "mantenimientoConceptosToolStripMenuItem";
-            this.mantenimientoConceptosToolStripMenuItem.Size = new System.Drawing.Size(294, 26);
-            this.mantenimientoConceptosToolStripMenuItem.Text = "Mantenimiento Conceptos";
-            this.mantenimientoConceptosToolStripMenuItem.Click += new System.EventHandler(this.MantenimientoConceptosToolStripMenuItem_Click);
+            this.transferenciaBancariaToolStripMenuItem.Name = "transferenciaBancariaToolStripMenuItem";
+            this.transferenciaBancariaToolStripMenuItem.Size = new System.Drawing.Size(240, 26);
+            this.transferenciaBancariaToolStripMenuItem.Text = "Transferencia Bancaria";
             // 
             // MDINominas
             // 
@@ -572,6 +598,9 @@
         private System.Windows.Forms.ToolStripMenuItem mantenimientoDepartamentoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoPuestoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoConceptosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem generarNominaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem transferenciaBancariaToolStripMenuItem;
     }
 }
 

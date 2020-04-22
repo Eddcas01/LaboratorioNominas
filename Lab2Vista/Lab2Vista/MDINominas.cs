@@ -143,5 +143,13 @@ namespace Lab2Vista
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void GenerarNominaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nomina frm = new Nomina();
+            frm.MdiParent = this;
+            frm.Show();
+
+        }
     }
 }

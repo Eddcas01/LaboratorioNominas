@@ -63,3 +63,11 @@ C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\
 C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\obj\Debug\Lab2Vista.MantenimientoPuesto.resources
 C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\obj\Debug\Lab2Vista.MantenimientoConcepto.resources
 C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\obj\Debug\Lab2Vista.MantenimientoDepartamento.resources
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\obj\Debug\Lab2Vista.Nomina.resources
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\bin\Debug\CapaVista.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\bin\Debug\CapaModelo.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\bin\Debug\CapaControlador.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\bin\Debug\CapaVista.pdb
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\bin\Debug\CapaVista.dll.config
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\bin\Debug\CapaModelo.pdb
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\Lab2Vista\Lab2Vista\bin\Debug\CapaControlador.pdb

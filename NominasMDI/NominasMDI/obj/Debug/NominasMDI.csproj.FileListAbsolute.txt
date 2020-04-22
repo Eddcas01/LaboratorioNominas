@@ -47,3 +47,14 @@ C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI
 C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaDeDatos.pdb
 C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaLogica_Consultas.pdb
 C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\Lab2Modelo.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaVista.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\Lab2Controlador.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaModelo.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaControlador.dll
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\Lab2Modelo.pdb
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaVista.pdb
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaVista.dll.config
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\Lab2Controlador.pdb
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaModelo.pdb
+C:\Users\edgar\Documents\GitHub\LaboratorioNominas\LaboratorioNominas\NominasMDI\NominasMDI\bin\Debug\CapaControlador.pdb
