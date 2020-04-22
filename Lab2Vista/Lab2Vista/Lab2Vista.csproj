@@ -31,11 +31,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CapaDatos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLS\Seguridad\CapaDiseno\bin\Debug\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDeDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLS\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDiseno, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLS\Seguridad\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Lab2Modelo">
       <HintPath>..\Lab2Modelo\bin\Debug\Lab2Modelo.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +60,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MantenimientoConcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoConcepto.Designer.cs">
+      <DependentUpon>MantenimientoConcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoDepartamento.Designer.cs">
+      <DependentUpon>MantenimientoDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoEmpleado.Designer.cs">
+      <DependentUpon>MantenimientoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoPuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoPuesto.Designer.cs">
+      <DependentUpon>MantenimientoPuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDINominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDINominas.Designer.cs">
+      <DependentUpon>MDINominas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MantenimientoConcepto.resx">
+      <DependentUpon>MantenimientoConcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoDepartamento.resx">
+      <DependentUpon>MantenimientoDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoEmpleado.resx">
+      <DependentUpon>MantenimientoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoPuesto.resx">
+      <DependentUpon>MantenimientoPuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDINominas.resx">
+      <DependentUpon>MDINominas.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
