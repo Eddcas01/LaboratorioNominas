@@ -1,0 +1,9 @@
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\bin\Debug\Lab2Modelo.dll
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\bin\Debug\Lab2Modelo.pdb
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\obj\Debug\Lab2Modelo.csprojAssemblyReference.cache
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\obj\Debug\Lab2Modelo.csproj.CoreCompileInputs.cache
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\obj\Debug\Lab2Modelo.dll
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\obj\Debug\Lab2Modelo.pdb
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\bin\Debug\Lab2Controlador.dll
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\bin\Debug\Lab2Controlador.pdb
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Modelo\obj\Debug\Lab2Modelo.csproj.CopyComplete

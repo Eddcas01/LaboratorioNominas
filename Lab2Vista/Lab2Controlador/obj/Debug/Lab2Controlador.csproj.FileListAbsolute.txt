@@ -1,0 +1,5 @@
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Controlador\bin\Debug\Lab2Controlador.dll
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Controlador\bin\Debug\Lab2Controlador.pdb
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Controlador\obj\Debug\Lab2Controlador.csproj.CoreCompileInputs.cache
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Controlador\obj\Debug\Lab2Controlador.dll
+C:\Users\edgar\source\repos\Lab2Vista\Lab2Controlador\obj\Debug\Lab2Controlador.pdb
